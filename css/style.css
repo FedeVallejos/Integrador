@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*Inicio Style del HEADER*/
+
+header
+{
+    background-color: rgb(88, 83, 83);
+    display: block;
+}
+
+
+.contenedor-flex
+{   
+    position: sticky;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    margin: auto;
+
+}
+.opciones
+{
+    margin: auto;
+    display: flex;
+    width: 60%;
+   
+    justify-content: space-evenly;
+}
+.opciones div a 
+{
+
+    text-decoration: none;
+    color: white;
+}
+.opciones div a:hover
+{
+    color: lightgrey;
+}
+
+/*Fin Style del HEADER*/
+/*Inicio Style del MAIN*/
+
+
+#carousel 
+{
+    height: auto;
+    display: flex;
+
+}
+#carousel .carousel-inner .carousel-item .carousel-caption .bsAs
+{
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.cards
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    
+
+}
+.cards .card-body input
+{
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: auto;
+}
+
+.formulario div
+{
+    display: flex;
+    justify-content: baseline;
+    margin: auto;
+    align-items: center;
+    width: 50%;
+}
+/*Inicio Style del MAIN*/
+/*Inicio Style del FOOTER*/
+
+footer
+{
+
+    background-color: rgb(42, 59, 83);
+}
+
+.opcionesFooter
+{
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    width: 80%;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.opcionesFooter a
+{
+    text-decoration: none;
+    color: white;
+}
+.opcionesFooter a:hover
+{
+
+    color: lightgray;
+}
+
+/*Fin Style del FOOTER*/
